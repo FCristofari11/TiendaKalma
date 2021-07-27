@@ -1,0 +1,213 @@
+.body {
+  background-image: url(https://img.freepik.com/foto-gratis/textil-relieve-rosa-pastel-textura_53876-94900.jpg?size=626&ext=jpg);
+}
+
+.navFooter {
+  color: #8a2be2;
+  background-color: #fffaf0;
+}
+
+.navFooter__secciones {
+  display: inline;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.navFooter__letras {
+  font-family: "Roboto" sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.navFooter__logo {
+  display: inline-block;
+  justify-content: center;
+  margin: 1% 0% 1%;
+}
+
+.navFooter__insta {
+  display: inline-block;
+  justify-content: center;
+  margin: 1% 0% 1%;
+}
+
+.tituloProductos {
+  color: #2f4f4f;
+  font-style: italic;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: normal;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin-top: 2%;
+}
+
+.titulosTextos {
+  font-size: 20px;
+}
+
+.primerFila {
+  color: #8a2be2;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+.segundaFila {
+  color: #4682b4;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+.quienes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "presentacion presentacion"
+ "girasoles abundancia";
+}
+
+.quienes__presentacion {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #4682b4;
+  grid-area: presentacion;
+}
+
+.quienes__girasoles {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #8a2be2;
+  grid-area: girasoles;
+}
+
+.quienes__abundancia {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #8a2be2;
+  grid-area: abundancia;
+}
+
+.terapias {
+  display: grid;
+  margin: 1%;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-areas: "uno dos tres";
+}
+
+.terapias__tarot {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #8a2be2;
+  grid-area: tres;
+}
+
+.terapias__astroterapia {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #4682b4;
+  grid-area: dos;
+}
+
+.terapias_emociones {
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #8a2be2;
+  grid-area: uno;
+}
+
+.SahumarVelas {
+  color: #8a2be2;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+}
+
+.arcangel {
+  color: #4682b4;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  text-decoration: solid;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+}
+
+.promos {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=estilos.css.map */

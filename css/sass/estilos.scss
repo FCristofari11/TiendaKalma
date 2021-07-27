@@ -1,0 +1,161 @@
+@import "color";
+@import "mixins";
+
+.body {
+    background-image: url(https://img.freepik.com/foto-gratis/textil-relieve-rosa-pastel-textura_53876-94900.jpg?size=626&ext=jpg);
+}
+
+.navFooter {
+    color: $violeta;
+    background-color: $blanco;
+}
+
+.navFooter__secciones {
+    display: inline;
+    justify-content: space-between;
+    align-items: stretch
+}
+
+.navFooter__letras {
+    @include tipoBase ("Roboto" sans-serif, 17px, italic, bold, 20px, solid, normal, normal, center);
+    color: $negro
+}
+
+.navFooter__logo {
+    display: inline-block;
+    justify-content: center;
+    margin: 1% 0% 1%;
+}
+
+.navFooter__insta {
+    display: inline-block;
+    justify-content: center;
+    margin: 1% 0% 1%
+}
+
+.tituloProductos {
+    color: $gris;
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: normal;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-top: 2%;
+}
+
+.titulosTextos {
+    font-size: 20px;
+}
+
+.primerFila {
+    color: $violeta;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.segundaFila {
+    color: $azul;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.quienes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: 
+        "presentacion presentacion"
+        "girasoles abundancia";
+}
+
+.quienes__presentacion {
+    @include tipoBase ("Roboto" sans-serif, 15px, italic, bold, 20px, solid, normal, normal, center);
+    color: $azul;
+    grid-area: presentacion;
+}
+
+.quienes__girasoles {
+    @include tipoBase ("Roboto" sans-serif, 15px, italic, bold, 20px, solid, normal, normal, center);
+    color: $violeta;
+    grid-area: girasoles;
+}
+
+.quienes__abundancia {
+    @include tipoBase ("Roboto" sans-serif, 15px, italic, bold, 20px, solid, normal, normal, center);
+    color:$violeta;
+    grid-area: abundancia;
+}
+
+.terapias {
+    display: grid;
+    margin: 1%;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-areas: 
+            "uno dos tres"
+}
+
+.terapias__tarot {
+    @include tipoBase ("Roboto" sans-serif, 15px, italic, bold, 20px, solid, normal, normal, center);
+    color: $violeta;
+    grid-area: tres
+}
+
+.terapias__astroterapia {
+    @include tipoBase ("Roboto" sans-serif, 15px, italic, bold, 20px, solid, normal, normal, center);
+    color:$azul;
+    grid-area: dos
+}
+
+.terapias_emociones {
+    @include tipoBase ("Roboto" sans-serif, 15px, italic, bold, 20px, solid, normal, normal, center);
+    color: $violeta;
+    grid-area: uno
+}
+
+.SahumarVelas {
+    color: $violeta;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: center;
+}
+
+.arcangel {
+    color:$azul;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    text-decoration: solid;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: center;
+}
+
+.promos {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

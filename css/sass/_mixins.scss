@@ -1,0 +1,11 @@
+@mixin tipoBase($fuente, $tamanio, $estilo, $bold, $line, $deco, $letra, $palabra, $alineacion) {
+    font-family: $fuente;
+    font-size: $tamanio;
+    font-style: $estilo;
+    font-weight: $bold;
+    line-height: $line;
+    text-decoration: $deco;
+    letter-spacing: $letra;
+    word-spacing: $palabra;
+    text-align: $alineacion;
+}
